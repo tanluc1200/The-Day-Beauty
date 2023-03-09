@@ -1,0 +1,335 @@
+.hero {
+  position: relative;
+  padding-left: 104rem;
+  display: flex;
+}
+.hero-info, .hero-img {
+  width: 50%;
+}
+.hero .info-title {
+  font-weight: 900;
+  font-size: 56rem;
+  line-height: 1.43;
+  letter-spacing: 0.02em;
+  color: #064e3b;
+  font-family: var(--font-Play);
+}
+.hero .info-title .emphasize {
+  color: #10b981;
+}
+.hero .info-logo {
+  padding-top: 56rem;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 116rem;
+}
+.hero .title-logo {
+  font-size: 19rem;
+  line-height: 93%;
+  letter-spacing: -0.04em;
+  background: linear-gradient(28.58deg, #059669 0%, #10b981 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.hero .info-button {
+  margin-top: 64rem;
+  display: flex;
+  gap: 8rem;
+}
+.hero .info-button .btn-info {
+  background: white;
+  color: #10b981;
+  border: 1rem solid #10b981;
+}
+.hero .grand {
+  position: absolute;
+  display: block;
+  min-width: 475rem;
+  height: 108rem;
+  background: white;
+  color: #059669;
+  bottom: 100rem;
+  left: 50%;
+  line-height: 1.4;
+}
+.hero .grand strong {
+  display: inline-block;
+  padding-block: 11rem 9rem;
+  margin-right: 38rem;
+  color: #047857;
+}
+.hero .grand > span {
+  font-weight: 600;
+  font-size: 13rem;
+}
+.hero .grand .grand-1 {
+  justify-content: center;
+  position: relative;
+  padding-inline: 58rem;
+  width: 442rem;
+  min-height: 108rem;
+  background: linear-gradient(360deg, #059669 0.08%, #10b981 100%);
+  text-align: center;
+  color: white;
+}
+.hero .grand .grand-1 .row:first-child {
+  font-size: 50rem;
+  justify-content: space-between;
+}
+.hero .grand .grand-1 .row:last-child {
+  font-size: 15rem;
+  justify-content: space-between;
+}
+.hero .grand .grand-1 .row:last-child span:nth-child(2) {
+  margin-left: 30rem;
+}
+.hero .grand .grand-1 .row:last-child span:nth-child(3) {
+  margin-right: -5rem;
+}
+
+.service {
+  color: white;
+  margin-bottom: 92rem;
+}
+.service-button {
+  margin-top: 24rem;
+  display: flex;
+  justify-content: center;
+}
+.service-content {
+  max-width: 1440rem;
+  margin-inline: auto;
+}
+.service-block {
+  background: #10b981;
+  background: linear-gradient(28.58deg, #059669 0%, #10b981 100%);
+  padding-block: 98rem;
+  width: 33.33%;
+  padding-inline: 45rem;
+}
+.service-block .title {
+  font-family: var(--font-Play);
+  font-weight: 700;
+  font-size: 36rem;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ecfdf5;
+  margin-bottom: 32rem;
+}
+.service-block .line {
+  width: 100%;
+  border: 2rem dashed #ecfdf5;
+  margin-bottom: 16rem;
+}
+.service-block .price {
+  background: #047857;
+  padding-inline: 10rem;
+  border-radius: 32rem;
+  -webkit-border-radius: 32rem;
+  -moz-border-radius: 32rem;
+  -ms-border-radius: 32rem;
+  -o-border-radius: 32rem;
+}
+.service-block .service-row-1 {
+  justify-content: space-between;
+  margin-bottom: 29rem;
+}
+.service-block .service-row-1 span {
+  font-weight: 500;
+  font-size: 18rem;
+  line-height: 140%;
+}
+.service-block .service-row-2 {
+  align-items: center;
+  gap: 12rem;
+}
+.service-block .service-row-2 i {
+  font-size: 25rem;
+}
+.service-block .package {
+  font-size: 24rem;
+}
+.service-img {
+  width: 100%;
+  min-height: 253rem;
+  background: #047857;
+  position: relative;
+  margin-bottom: 32rem;
+}
+.service-img img {
+  position: absolute;
+  top: -10rem;
+  right: -10rem;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.service .btn-service {
+  background: linear-gradient(238.08deg, #059669 19.19%, #10b981 80.81%);
+  min-width: 228rem;
+}
+
+.Sugar-Scrubs {
+  width: 100%;
+  padding-left: 104rem;
+  color: #047857;
+  position: relative;
+}
+
+.sugar-info {
+  z-index: 1;
+  position: relative;
+  max-width: 60%;
+  padding: 77rem 195rem 76rem 73rem;
+  background: #ecfdf5;
+}
+.sugar-info .btn-sugar {
+  max-width: 40%;
+  padding: 6rem 15rem;
+  background: #047857;
+  font-weight: 500;
+  line-height: 140%;
+  color: #ecfdf5;
+}
+.sugar-info .title {
+  font-family: var(--font-Play);
+  font-size: 40rem;
+  line-height: 140%;
+  margin-top: 10rem;
+}
+.sugar-info .desc {
+  margin-top: 24rem;
+  font-style: italic;
+  font-size: 18rem;
+  line-height: 1.5;
+}
+.sugar-info .desc2 {
+  width: 90%;
+  font-style: normal;
+  margin-bottom: 24rem;
+}
+.sugar-info .views {
+  color: #047857;
+  font-size: 18rem;
+  line-height: 1.5;
+  font-weight: 500;
+  position: relative;
+}
+.sugar-info .views::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2rem;
+  background: #047857;
+  bottom: -4rem;
+  left: 0;
+}
+
+.sugar-img {
+  top: 70rem;
+  position: absolute;
+  background: linear-gradient(30.63deg, #059669 26.17%, #10b981 97.06%);
+  height: 450rem;
+  right: 0;
+  left: 73rem;
+}
+.sugar-img img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+
+footer {
+  margin: 200rem 100rem 67rem;
+}
+footer .title {
+  font-weight: 600;
+  font-size: 20rem;
+  line-height: 140%;
+  color: #064e3b;
+}
+footer a {
+  color: #064e3b;
+  font-size: 18rem;
+  line-height: 140%;
+}
+footer p {
+  margin-top: 70rem;
+  font-weight: 500;
+  font-size: 18rem;
+  line-height: 140%;
+  color: #064e3b;
+}
+footer h4 {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+footer .footer-col-1 {
+  width: 20%;
+}
+footer .footer-col-1 .row {
+  align-items: center;
+  gap: 3rem;
+}
+footer .footer-col-1 .row strong {
+  font-weight: 400;
+  font-size: 19rem;
+  line-height: 93%;
+  letter-spacing: -0.04em;
+  background: linear-gradient(28.58deg, #059669 0%, #10b981 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+footer .footer-col-1 img {
+  width: 44rem;
+  height: 33rem;
+}
+footer .footer-col-2-3 {
+  width: 15%;
+  gap: 16rem;
+}
+footer .footer-col-4 {
+  width: 15%;
+  gap: 16rem;
+  margin-right: auto;
+}
+footer .footer-col-4 h4 {
+  margin-bottom: 4px;
+}
+footer .footer-col-5 {
+  width: 20%;
+}
+footer .footer-col-5 button {
+  margin-top: 47rem;
+  background: none;
+  border: none;
+}
+footer .footer-col-5 input {
+  border: none;
+}
+footer .footer-col-5 input::-moz-placeholder {
+  color: #cfdad7;
+  font-size: 14rem;
+  font-weight: 500;
+}
+footer .footer-col-5 input::placeholder {
+  color: #cfdad7;
+  font-size: 14rem;
+  font-weight: 500;
+}
+footer .footer-col-5 i {
+  color: #047857;
+}
+footer .footer-col-5 .lines {
+  margin-top: 9rem;
+  height: 1px;
+  width: 90%;
+  background: #000;
+}/*# sourceMappingURL=style.css.map */

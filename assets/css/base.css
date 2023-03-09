@@ -1,0 +1,31 @@
+:root {
+    --font-Play: "Playfair Display", serif;
+    --font-Work: "Work Sans", sans-serif;
+}
+html {
+    font-size: 6.25%;
+    font-family: var(--font-Work);
+}
+body {
+    font-size: 16rem;
+}
+.btn {
+    font-weight: 500;
+    font-size: 18rem;
+    line-height: 140%;
+    color: #ffffff;
+    padding: 14rem 28rem;
+    background: #22bf8d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
